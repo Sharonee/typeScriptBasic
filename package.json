@@ -1,0 +1,23 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Types.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharonee/basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharonee/basic/issues"
+  },
+  "homepage": "https://github.com/Sharonee/basic#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
