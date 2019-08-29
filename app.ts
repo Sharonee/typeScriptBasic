@@ -26,5 +26,36 @@ hobbies2 = [100];
 console.log(typeof hobbies);
 console.log(hobbies[0]);
 
+//tuples (array with mix type)
+let address : [string, number ] =  ["telaviv", 99];   //order is inportent
+
+//Emun 
+
+enum Color{
+    Gray,  //0
+    Green,  //1
+    Blue   //2
+}
+
+let myColor: Color = Color.Green;
+console.log(myColor);  // will print 1
+
+
+
+//any
+
+let car: any = "BMW";
+console.log(car);
+car = { brand: "BMW", model: 1988};
+console.log(car);
+
+//------------------------------------------------------------------------------------
+
+//Functions
+
+
+
+
+
 
 
