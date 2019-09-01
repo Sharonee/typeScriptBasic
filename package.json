@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Sharonee/basic#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "typescript": "^3.6.2"
   }
 }

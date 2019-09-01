@@ -1,3 +1,4 @@
+"use strict";
 //String
 var myName = 'Max';
 //Number
@@ -37,3 +38,4 @@ car = { brand: "BMW", model: 1988 };
 console.log(car);
 //------------------------------------------------------------------------------------
 //Functions
+//# sourceMappingURL=app.js.map

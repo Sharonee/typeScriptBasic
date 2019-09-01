@@ -1,5 +1,5 @@
-function Greeter(greeting) {
-    this.greeting = greeting;
+function Greeter(greeting: string) {
+    greeting = greeting;
   }
   
   Greeter.prototype.greet = function() {
@@ -8,7 +8,7 @@ function Greeter(greeting) {
   
   // Oops, we're passing an object when we want a string. This will print
   // "Hello, [object Object]" instead of "Hello, world" without error.
-  let greeter = new Greeter({ message: "world" });
+  let greeter = new Greeter("world");
   
   let button = document.createElement("button");
   button.textContent = "Say Hello";
