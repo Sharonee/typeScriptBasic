@@ -38,4 +38,53 @@ car = { brand: "BMW", model: 1988 };
 console.log(car);
 //------------------------------------------------------------------------------------
 //Functions
+function returnMyMame() {
+    return myName;
+}
+console.log(returnMyMame());
+//void
+function sayHello() {
+    console.log("Hello");
+}
+//arguments type
+function multiply(value1, value2) {
+    return value1 * value2;
+}
+//function type
+var myMultiply; //able to defind which type of function may hold
+myMultiply = multiply;
+console.log(myMultiply(5, 10));
+//Objects
+//In objects the order my be change
+var userData = {
+    name: "bebe",
+    age: 60
+};
+//complex object
+var complex = {
+    data: [100, 2, 5],
+    output: function (all) {
+        return this.data;
+    }
+};
+var complex2 = {
+    data: [100, 2, 5],
+    output: function (all) {
+        return this.data;
+    }
+};
+//union types
+var myRealRealAge = 24; //Number or String
+myRealRealAge = "27";
+myRealRealAge = 27;
+// check types
+var finalValue = 30;
+if (typeof finalValue == "number") {
+    console.log("the type is number");
+}
+//Nullable types
+var canBeNull = 12;
+canBeNull = null;
+var alsoCanBeNull;
+alsoCanBeNull = null;
 //# sourceMappingURL=app.js.map
