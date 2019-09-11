@@ -54,4 +54,10 @@ var testResults = [3.89, 2.99, 1.38];
 // var result3 = testResults[2];
 var result1 = testResults[0], result2 = testResults[1], result3 = testResults[2];
 console.log(result1, result2, result3);
+// // Exercise 6 - And a well-constructed object!
+var scientist = { firstName: "Will", experience: 12 };
+// var firstName = scientist.firstName;
+// var experience = scientist.experience;
+var firstName = scientist.firstName, experience = scientist.experience;
+console.log(firstName, experience);
 //# sourceMappingURL=ES6_exercise.js.map

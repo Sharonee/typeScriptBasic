@@ -68,8 +68,9 @@ console.log(result1, result2, result3);
 
 // // Exercise 6 - And a well-constructed object!
 var scientist = {firstName: "Will", experience: 12};
-var firstName = scientist.firstName;
-var experience = scientist.experience;
+// var firstName = scientist.firstName;
+// var experience = scientist.experience;
+const {firstName, experience} = scientist;
 console.log(firstName, experience);
 
 
