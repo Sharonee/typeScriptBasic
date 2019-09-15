@@ -1,4 +1,3 @@
-"use strict";
 //Re-write the below Code using the ES6 Features you learned throughout this Module.
 // // Exercise 1 - Maybe use an Arrow Function?
 // var double = function(value) {

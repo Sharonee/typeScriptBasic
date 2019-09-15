@@ -1,4 +1,3 @@
-"use strict";
 //String
 var myName = 'Max';
 //Number

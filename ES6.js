@@ -1,4 +1,3 @@
-"use strict";
 // Let & Const
 var variable = "Test";
 console.log(variable);
