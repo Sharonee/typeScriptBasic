@@ -1,5 +1,5 @@
-// How was your TypeScript Class?
-function CarNew(name) {
+// Exercise 1 - How was your TypeScript Class?
+function Car1(name) {
     this.name = name;
     this.acceleration = 0;
  
@@ -11,8 +11,8 @@ function CarNew(name) {
         this.acceleration = this.acceleration + speed;
     }
 }
-var carnew = new CarNew("BMW");
-carnew.honk();
-console.log(carnew.acceleration);
-carnew.accelerate(10);
-console.log(carnew.acceleration);
+var car1 = new Car1("BMW");
+car1.honk();
+console.log(car1.acceleration);
+car1.accelerate(10);
+console.log(car1.acceleration);
