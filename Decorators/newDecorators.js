@@ -4,8 +4,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-// Decorator = metaprogramming
-// extending a class for more functnality
 function logMethod(target, key, descriptor) {
     // save a reference to the original method this way we keep the values currently in the
     // descriptor and don't overwrite what another decorator might have done to the descriptor.
@@ -43,5 +41,6 @@ var Person1 = /** @class */ (function () {
     return Person1;
 }());
 var p = new Person1("remo", "jansen");
+console.log("person name is   " + JSON.stringify(p));
 p.saySomething("I love playing", "halo");
 //# sourceMappingURL=newDecorators.js.map

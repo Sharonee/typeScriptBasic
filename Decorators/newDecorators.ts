@@ -1,5 +1,3 @@
-// Decorator = metaprogramming
-// extending a class for more functnality
 function logMethod(target, key, descriptor) {
  
     // save a reference to the original method this way we keep the values currently in the
@@ -27,6 +25,11 @@ function logMethod(target, key, descriptor) {
     return descriptor;
 }
 
+
+
+
+
+
 class Person1 { 
   
   public name: string;
@@ -44,4 +47,6 @@ class Person1 {
 }
 
 var p = new Person1("remo", "jansen");
+console.log("person name is   " + JSON.stringify(p));
+
 p.saySomething("I love playing", "halo");
