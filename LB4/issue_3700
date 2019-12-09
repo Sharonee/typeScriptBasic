@@ -1,0 +1,32 @@
+  async create(entity: DataObject<T>, options?: Options): Promise<T> {
+    if ( typeof en  Array ){
+      if (typeof data !== 'object')
+      throw console.error("NOT SUPPORTED");
+    }
+    const model = await ensurePromise(this.modelClass.create(entity, options));
+    return this.toEntity(model);
+  }
+  
+   -----------------------------------------------------------------
+ 
+ [{
+		"name": "app1"
+	},
+	{
+		"name": "app2"
+	},
+	{
+		"name": "app3"
+	}]
+	
+	
+{
+  "error": {
+    "statusCode": 500,
+    "message": "Internal Server Error"
+  }
+}
+-------------------------------------------------------------------
+http://10.145.72.96:3000/
+----------------------------------
+https://github.com/strongloop/loopback-next/issues/3700
