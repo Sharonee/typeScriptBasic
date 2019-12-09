@@ -30,3 +30,6 @@
 http://10.145.72.96:3000/
 ----------------------------------
 https://github.com/strongloop/loopback-next/issues/3700
+
+/home/sharon/projects/LB4/loopback-next/fix3700/node_modules/@loopback/repository/src/repositories/legacy-juggler-bridge.ts
+
