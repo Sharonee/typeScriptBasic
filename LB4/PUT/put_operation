@@ -1,0 +1,5 @@
+curl -k -s https://localhost:3443/icontrol/v1/network/endpoints GET
+
+curl -k -s https://localhost:3443/icontrol/v1/network/endpoints -X POST -d '{"id":"225dd900-c66a-45d1-8e3e-781412022018","address":"172.0.0.1","port":"5689", "version":"1.2.3"}' -H 'Content-Type:application/json'
+
+curl -k -s https://localhost:3443/icontrol/v1/network/endpoints/225dd900-c66a-45d1-8e3e-781412022018 -X PUT -d '{"id":"225dd900-c66a-45d1-8e3e-781412022018","address":"172.0.0.2","port":"5689", "version":"1.2.3"}' -H 'Content-Type:application/json'
